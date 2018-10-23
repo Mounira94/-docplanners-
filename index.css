@@ -1,0 +1,245 @@
+body
+{
+    margin: 0px ;
+    padding: 0px 180px;
+
+}
+ .header
+{
+height: 80px;
+background-color: white;
+
+}  
+ .header-brand
+{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    height: 60px;
+    width:calc(100% - 360px);
+    padding-top:15px ;
+    position: fixed;
+    margin: auto;   
+}
+.logo
+{
+    
+    width: 268px;
+    height: 33px;
+}
+.nav-menu
+{
+   
+    display: flex;
+    
+ 
+
+}
+.nav-items
+{
+    list-style-type:none;
+    padding-right: 20px;
+    position: relative;
+    height:58px;
+}
+.nav-link
+{         
+    text-decoration-line: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ababab;
+    font-size: 15px;
+}
+.nav-link-active
+{
+    color: #00b39b;
+}
+.departement-items
+{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+   
+}
+
+.nav-items:hover>.departement-items,.departement-items:hover
+{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.nav-link:hover 
+{
+    color: #00b39b;
+
+}
+
+.departement-item
+{
+
+    padding:10px 2px;    
+    list-style-type:none;
+
+
+}
+.departement-item-link
+{   
+    text-decoration-line: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ababab; 
+}
+.departement-item-link:hover
+{
+    color: #00b39b;
+    background-color: silver;
+}
+/* .section-healthcare
+{
+    display: flex;
+} */
+.healthcare-title
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.healthcare-logo
+{
+margin: 10px auto;
+}
+.healthcare-txt
+{
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif; ;
+    font-size:2.125rem; 
+    color: #00b39b;
+    font-weight: normal;
+}
+.healthcare-main
+{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.health-grid
+{
+    
+    padding-top: 10px;
+    width: 480px;
+}
+.descriptoion-text
+{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    line-height: 170%;
+    padding-bottom: 70px;
+}
+.health-card
+{
+    border-radius: 10px;
+    height: 400px;
+    
+    padding-top: 15px;
+    padding-left: 35px;
+    overflow: hidden;
+}
+.card-patient
+{
+    background: #00b39b;
+}
+.card-doctor
+{
+    background: #3d83df;
+}
+.card-txt
+{
+    font-size: 15px;
+    color: hsla(0,0%,100%,.7);
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: -12px;
+}
+.card-description
+{
+    color: white;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    
+}
+.card-img-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.patient-country-options
+{
+    color: #333;
+    background: #fff;
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-align-last: center;
+    border: none;
+    
+    
+}
+.patient-country-option
+{
+    text-align: left;
+   
+}
+.card-img
+{
+   height: 250px;
+   width: 500px;
+}
+.card-img-container-decale
+{
+padding-left: 150px;
+
+}
+.healthcare-campany
+{
+    display: flex;
+    padding-top:50px ;
+}
+.healthcare-campany-name
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+}
+.healthcare-campany-text
+{
+    width: 200px;
+    font-size: 28px;
+    color: #00b39b;
+    font-weight: normal;
+}
+.healthcare-campany-list
+{
+    list-style-type:none;
+
+}
+.healthcare-campany-link
+{
+    text-decoration-line: none;
+    color: silver;
+    font-size: 20px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 190%;
+}
+.icon
+{
+    width: 20px;
+    height: 20px;
+}
